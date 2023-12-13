@@ -6,6 +6,12 @@ LiteFile Manager is a web app designed using html,css,js and php which manages a
 ## Software Requirements
 
 - XAMPP Control Panel
+# 💻 Technologies Used:
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=flat&logo=html5&logoColor=white&message=HTML5) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=flat&logo=css3&logoColor=white&message=CSS3) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=flat&logo=javascript&logoColor=black&message=JavaScript)
+![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=flat&logo=Canva&logoColor=white&message=Canva) ![GIT](https://img.shields.io/badge/Git-fc6d26?style=flat&logo=git&logoColor=white&message=Git) ![GitHub](https://img.shields.io/badge/GitHub-181717.svg?style=flat&logo=github&logoColor=white&message=GitHub)
+![MySQL](https://img.shields.io/badge/mysql-%2300000f.svg?style=flat&logo=mysql&logoColor=white&message=MySQL) ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=flat&logo=php&logoColor=white&message=PHP)
+
+
 
     
 ## Run Locally
