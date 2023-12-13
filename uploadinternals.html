@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="css/footernav.css">
+  <link rel="stylesheet" type="text/css" href="css/sidebar.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+</head>
+<body>
+    <div class="sidebar">
+        <a href="admin_dashboard.php"><i class="fa fa-home" style="font-size:24px"></i>&emsp;Home</a>
+        <a href="viewstudents.html"><i class="fa fa-user" style="font-size:24px"></i>&emsp;View Users</a>
+        <a href="viewadmins.html"><i class='fa fa-id-card' style='font-size:24px'></i>&emsp;View admins</a>
+        <a href="uploadnotes.html"><i class='fa fa-book' style='font-size:24px'></i>&emsp;Upload Notes</a>
+        <a href="viewnotes.html"><i class='fa fa-book' style='font-size:24px'></i>&emsp;View Notes</a>
+        <a href="uploadprevious.html"style="font-size:13px"><i class='fa fa-file-pdf-o' style='font-size:24px'></i>&emsp;Upload Previous year Papers</a>
+        <a href="viewprevious.html"style="font-size:13px"><i class='fa fa-file-pdf-o' style='font-size:24px'></i>&emsp;View Previous year Papers</a>
+        <a href="uploadinternals.html" style="font-size:13px"><i class='fa fa-edit' style='font-size:24px'></i>&emsp;Upload Internal Question papers</a>
+        <a href="viewinternals.html" style="font-size:13px"><i class='fa fa-edit' style='font-size:24px'></i>&emsp;View Internal Question papers</a>    
+        <a href="display.php" ><i class='fa fa-trash' style='font-size:24px'></i>&emsp;Delete Documents</a>
+        <a href="login.html"><i class='fa fa-sign-out' style='font-size:24px'></i>&emsp;Logout</a>  
+      </div>
+      <style>
+         .container {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="date"],
+        select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        input[type="file"] {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+
+        input[type="submit"] {
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+      </style>
+  <div class="content">
+    <p style="padding-top: 50px;"></p>
+    <div class="container">
+        <h1>Upload Internals Question  Papers</h1>
+        <form action="upload_internal.php" method="post" enctype="multipart/form-data">
+            <label for="scheme">Scheme:</label>
+            <select name="scheme" id="scheme" required>
+                <option value="2018">2018</option>
+                <option value="2021">2021</option>
+                <option value="2022">2022</option>
+            </select><br><br>
+    
+            <label for="semester">Semester:</label>
+            <select name="semester" id="semester" required>
+                <option value="Semester 1">Semester 1</option>
+                <option value="Semester 2">Semester 2</option>
+                <option value="Semester 3">Semester 3</option>
+                <option value="Semester 4">Semester 4</option>
+                <option value="Semester 5">Semester 5</option>
+                <option value="Semester 6">Semester 6</option>
+                <option value="Semester 7">Semester 7</option>
+                <option value="Semester 8">Semester 8</option>
+            </select><br><br>
+    
+            <label for="subject">Subject:</label>
+            <input type="text" name="subject" id="subject" required><br><br>
+            <label for="internal">Internal:</label>
+            <select name="internal" id="internal" required>
+                <option value="internal 1">Internal 1</option>
+                <option value="internal 2">Internal 2</option>
+                <option value="internal 3">Internal 3</option>
+        </select>
+            <label for="file">Upload:</label>
+            <input type="file" name="file" id="file" required><br><br>
+    
+            <input type="submit" value="Upload">
+        </form>
+    </div>
+    
+  </div>
+  <p style="padding-top:210px"></p>
+  <div class="footer">
+        <div class="footer-content">
+            <p style="padding-left:100px">&copy; 2023 LiteFile Manager. All rights reserved.</p>
+            <ul>
+                <li><a href="#">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
+
+

@@ -1,0 +1,36 @@
+.footer {
+    background-color: #333; /* Background color for the footer */
+    color: #fff; /* Text color for the footer */
+    padding: 20px; /* Add some padding to the footer for spacing */
+    text-align: center; /* Center-align the content within the footer */
+  }
+  .footer-content {
+    max-width: 800px;
+    max-height: 400px; /* Set a maximum width for the content within the footer */
+    margin: 0 auto; /* Center-align the content horizontally */
+  }
+  /* Style the copyright text */
+  .footer-content p {
+    font-size: 14px; /* Adjust the font size as needed */
+  }
+  /* Style the list of links */
+  .footer-content ul {
+    list-style: none; /* Remove the default list bullet points */
+    
+    padding: 0; /* Remove any padding on the list */
+  }
+  /* Style the individual list items (links) */
+  .footer-content li {
+    display: inline; /* Display list items inline to create a horizontal layout */
+    margin-right: 20px; /* Add spacing between list items */
+  }
+  /* Style the links within the list items */
+  .footer-content a {
+    color: #fff; /* Text color for the links */
+    text-decoration: none; /* Remove underlines from the links */
+    /* You can also style link hover and visited states if needed */
+  }
+  /* Style link hover state */
+  .footer-content a:hover {
+    text-decoration: underline; /* Add underline on hover */
+  }

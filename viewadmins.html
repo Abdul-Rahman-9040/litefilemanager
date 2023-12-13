@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="css/footernav.css">
+  <link rel="stylesheet" type="text/css" href="css/sidebar.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+</head>
+<body>
+    <div class="sidebar">
+        <a href="admin_dashboard.php"><i class="fa fa-home" style="font-size:24px"></i>&emsp;Home</a>
+        <a href="viewstudents.html"><i class="fa fa-user" style="font-size:24px"></i>&emsp;View Users</a>
+        <a href="viewadmins.html"><i class='fa fa-id-card' style='font-size:24px'></i>&emsp;View admins</a>
+        <a href="uploadnotes.html"><i class='fa fa-book' style='font-size:24px'></i>&emsp;Upload Notes</a>
+        <a href="viewnotes.html"><i class='fa fa-book' style='font-size:24px'></i>&emsp;View Notes</a>
+        <a href="uploadprevious.html"style="font-size:13px"><i class='fa fa-file-pdf-o' style='font-size:24px'></i>&emsp;Upload Previous year Papers</a>
+        <a href="viewprevious.html"style="font-size:13px"><i class='fa fa-file-pdf-o' style='font-size:24px'></i>&emsp;View Previous year Papers</a>
+        <a href="uploadinternals.html" style="font-size:13px"><i class='fa fa-edit' style='font-size:24px'></i>&emsp;Upload Internal Question papers</a>
+        <a href="viewinternals.html" style="font-size:13px"><i class='fa fa-edit' style='font-size:24px'></i>&emsp;View Internal Question papers</a>   
+        <a href="display.php"><i class='fa fa-trash' style='font-size:24px'></i>&emsp;Delete Documents</a> 
+        <a href="login.html"><i class='fa fa-sign-out' style='font-size:24px'></i>&emsp;Logout</a>  
+      </div>
+  <div class="content">
+    <div class="user-details">
+      <h2>Admin Details</h2>
+      <div class="search-container">
+          <input type="text" id="search" placeholder="Search by name or email">
+          <button id="searchButton">Search</button>
+      </div>
+      
+      <table>
+        <thead id="tableHeader">
+            <tr>
+                <th>Sl.No</th>
+                <th>Full name</th>
+                <th>Username</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody id="tableBody">
+            <?php include 'display_all_admin.php'; ?>
+        </tbody>
+    </table>
+</div>
+
+<script src="searchadmin.js"></script>
+   </div>
+  </div>
+  <p style="padding-top:610px"></p>
+  <div class="footer">
+        <div class="footer-content">
+            <p style="padding-left:100px">&copy; 2023 LiteFile Manager. All rights reserved.</p>
+            <ul>
+                <li><a href="#">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
+
+

@@ -1,0 +1,158 @@
+/* Style the navbar */
+.navbar {
+  background-color: blue; /* Background color */
+  overflow: hidden;
+  position: fixed; /* Fixed position at the top of the page */
+  width: 100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a shadow for a raised effect */
+}
+/* Style the logo */
+.navbar .logo {
+  font-size: 24px;
+  padding: 10px 20px;
+  color: #fff; /* Text color */
+  text-decoration: none; /* Remove underline */
+}
+
+/* Style the navigation links */
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  text-decoration: none;
+  margin: 0;
+  text-align: center;
+}
+
+.navbar li {
+  display: inline;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+/* Style the default link appearance in the navbar */
+.navbar a {
+  color: #fff; /* Text color */
+  text-decoration: none; /* Remove underline */
+  background-color: transparent; /* Set the initial background color to transparent or any desired color */
+  padding: 10px 20px; /* Adjust padding as needed */
+  transition: background-color 0.3s; /* Add a smooth transition effect */
+}
+
+/* Style the link on hover */
+.navbar a:hover {
+  background-color: #007bff; /* Change the background color to blue on hover */
+  color: #fff; /* Change text color on hover if needed */
+}
+
+/* login/signup */
+/* Style the login container */
+.login-container {
+  width: 300px; /* Set a fixed width for the container */
+  margin: 0 auto; /* Center-align the container horizontally */
+  padding: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the form */
+.login-container form {
+  text-align: center;
+}
+
+/* Style the form title (Login) */
+.login-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Style the form input fields */
+.login-container input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+/* Style the login button */
+.login-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* Style the signup link container */
+.signup-link {
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Style the "Don't have an account?" text */
+.signup-link p {
+  margin-bottom: 10px;
+  color: #555;
+}
+
+/* Style the "Sign Up" link */
+.signup-link a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Style the "Sign Up" link on hover */
+.signup-link a:hover {
+  text-decoration: underline;
+}
+/* side nav */
+/* Basic styling for the sidebar */
+/* Center-align the sidebar horizontally */
+.sidebar {
+  width: 250px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 50%; /* Center the sidebar */
+  transform: translateX(-50%); /* Center the sidebar */
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+/* Style the sidebar list */
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style sidebar list items */
+.sidebar li {
+  margin-bottom: 10px;
+}
+
+/* Style sidebar links */
+.sidebar a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  padding: 10px;
+}
+
+/* Change link color on hover */
+.sidebar a:hover {
+  background-color: #007bff;
+}
+
+/* Adjust the content area to the right of the centered sidebar */
+.content {
+  margin-left: 270px; /* Adjust for the sidebar width and some spacing */
+  padding: 20px;
+}
+
