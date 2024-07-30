@@ -1,7 +1,7 @@
 
 # LiteFile Manager
 
-LiteFile Manager is a web app designed using html,css,js and php which manages all notes where user can access notes,previous tear paper internal question papers and admin can upload and view user and admins and it also have super user which can approve admins and users.
+LiteFile Manager is a web app designed using html,css,js and php which manages all notes where user can access notes,previous test paper internal question papers and admin can upload and view user and admins and it also have super user which can approve admins and users.
 
 ## Software Requirements
 
