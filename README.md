@@ -19,14 +19,15 @@ LiteFile Manager is a web app designed using html,css,js and php which manages a
 ## Run Locally
 
 Create project Directory in xampp folder 
-
-```bash
-  cd C:\xampp\htdocs\project
-```
 Clone Project
 ```bash
   git clone https://link-to-project
 ```
+
+```bash
+  cd C:\xampp\htdocs\project
+```
+
 Create Database  in phpmyadmin
 
 ```bash
